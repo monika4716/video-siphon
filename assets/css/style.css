@@ -1,0 +1,234 @@
+body{
+	width:450px;
+	padding-right:0 !important;
+	font-family: 'Montserrat';
+}
+img{
+	max-width:100%;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+    padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+.header{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+	background:white;
+}
+.header h6 a{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 11px;
+	color: #0D9F5B;
+}
+.header h5 a{
+	font-size: 13px;
+	line-height: 16px;
+	font-style: normal;
+    font-weight: bold;
+	color: #003854;
+}
+.row{
+	margin:0;
+}
+.header ul {
+    list-style: none;
+    margin-left: 87px !important;
+}
+.header ul li{
+	float:left;
+	margin-left:10px
+}
+.btn-success.focus, .btn-success:focus {
+    box-shadow: none;
+}
+.header .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #0D9F5B;
+    border-color:#0D9F5B;
+}
+.header ul li a .btn{
+	background: #0D9F5B;
+    border-radius: 20px;
+	border: 1px solid #0D9F5B;
+	font-weight: 600;
+	font-size: 8px;
+	padding:2px 17px;
+	text-align: center;
+    color: #FFFFFF;
+}
+.btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus {
+    box-shadow:none;
+}
+.header ul li a{
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+    color: #003854;
+}
+/*************section******************/
+.section h3{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #003854;
+}
+.arrow1{
+	top: 203px;
+    left: 314px;
+	position:absolute;
+}
+.section h4{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #003854;
+}
+.tab{
+	display:none;
+}
+.text{
+	padding:10px 95px
+}
+.section h6 a{
+	font-size: 10px;
+	line-height: 11px;
+	color: #0D9F5B;
+}
+img.arrow {
+    position: absolute;
+    left: 300px;
+    top: 137px;
+}
+.section h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #6D6D6D;
+}
+.section h5 a{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 11px;
+	color: #000000;
+}
+.section .form-control{
+	background: #FFFFFF;
+	border: 1px solid #003854;
+	height:auto !important;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.form{
+	padding-left:40px;
+	padding-right:40px
+}
+.form-control:focus{
+	box-shadow:none;
+}
+.section label{
+	font-weight: 600;
+	font-size: 9px;
+	line-height: 11px;
+    color: #000000;
+}
+.arrow_sec{
+	 cursor:pointer;
+}
+.arrow_sec{
+	 background: #003854;
+	 padding:15px;
+	 border-radius:50%;
+	 position: absolute;
+}
+.section .btn{
+	  background: #003854;
+      border-radius: 5px;
+	  border:none;
+	  font-weight: 600;
+	  font-size: 11px;
+	  line-height: 27px;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color:#003854;
+    border-color: #003854;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+ .form-control::placeholder{
+	color:#B3B3B3;
+	font-size: 10px; 
+} 
+/**************footer***************/
+.footer ul{
+	list-style:none;
+	display:inline-flex;
+}
+.footer ul li a{
+	float:left;
+	font-weight: 600;
+	font-size: 11px;
+	border-right:1px solid #0D9F5B;
+	margin-right:5px;
+	line-height: 11px;
+	color: #0D9F5B;
+	padding-right: 8px;
+}
+.support{
+	border-right:none !important;
+}
+.foot_bg{
+	background: #EEF9FF;
+	cursor:pointer;
+}
+.foot_bg img{
+	background: #FFFFFF;
+	border-radius: 5px;
+	padding:14px;
+}
+.foot_bg h6 a{
+	border-right:none !important;
+	font-weight: 600;
+	font-size: 9px !important;
+	line-height: 11px!important;
+	text-align: center;
+    color: #003854 !important;
+}
+h6.right-navbar{
+	display: block !important;
+    width: 100%;
+}
+.right-navbar{
+	display:flex;
+	align-items:center;
+}
+
+.error{
+  color: #cd2122!important;
+  margin-top: 3px;
+  font-weight: 600;
+  letter-spacing: .3px;
+}
+.footer h6{
+	font-weight: 600;
+    font-size: 9px !important;
+	color: #003854 !important;
+}
+.hidden {
+    display: none !important;
+}
+.no-upgrade .col-3{
+	flex:0 0 22.22%
+}
